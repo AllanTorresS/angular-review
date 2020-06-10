@@ -9,6 +9,8 @@ export class DataBindComponent implements OnInit {
 
   url:String = 'https://www.google.com'
   urlImagem:String = 'http://lorempixel.com/400/200/'
+  curso:String = 'Desenvolvimento web'
+
   constructor() { }
 
   ngOnInit() {
