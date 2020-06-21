@@ -12,6 +12,8 @@ import { EventBindComponent } from './event-bind/event-bind.component';
 import { TwoWayDatabindComponent } from './two-way-databind/two-way-databind.component';
 import { InputPropertiesComponent } from './input-properties/input-properties.component';
 import { BotaoIncrementarComponent } from './botao-incrementar/botao-incrementar.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { ViewChildComponent } from './view-child/view-child.component';
 
 @NgModule({
    declarations: [
@@ -21,7 +23,9 @@ import { BotaoIncrementarComponent } from './botao-incrementar/botao-incrementar
       EventBindComponent,
       TwoWayDatabindComponent,
       InputPropertiesComponent,
-      BotaoIncrementarComponent
+      BotaoIncrementarComponent,
+      CicloDeVidaComponent,
+      ViewChildComponent
    ],
    imports: [
       BrowserModule,
